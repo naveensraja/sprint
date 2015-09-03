@@ -4,6 +4,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-s
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+  color: #fff
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -44,6 +45,13 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+body{
+  background-color: #586464;
+}
+
+.col-sm-4 img {
+  width: 25%;
+}
 /* Naveen */
 .landing {
   font-weight: 400;
@@ -52,6 +60,12 @@ p {
 ul {
  list-style: none;
 }
+.business-header {
+    height: 800px;
+    background-image: url("../header.jpg");
+    background-repeat: no-repeat;
+
+} 
 
 /* Button */
 
